@@ -1,0 +1,148 @@
+body {
+  background-image: url(BACKGROUND/bck.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.greet {
+  background: transparent;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 35px;
+  color: #e1d3d3;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.h2 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.t1 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.b1 {
+  font-size: 40px;
+  color: #d7cdcd;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.cake {
+  height: 150px;
+  width: 170px;
+  margin-left: 90px;
+}
+
+/* Wave Animation */
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+}
+
+.wave-text {
+  display: inline-block;
+}
+
+.wave-text span {
+  display: inline-block;
+  animation: wave 0.5s ease-in-out infinite;
+  animation-delay: calc(var(--delay) * 0.1s);
+  transform-origin: 50% 50%;
+  display: inline-block;
+}
+
+.wave-text span:nth-child(1) {
+  --delay: 1;
+}
+
+.wave-text span:nth-child(2) {
+  --delay: 1;
+}
+
+.wave-text span:nth-child(3) {
+  --delay: 1;
+}
+
+.wave-text span:nth-child(4) {
+  --delay: 1;
+}
+
+.wave-text span:nth-child(5) {
+  --delay: 1;
+}
+
+.wave-text span:nth-child(6) {
+  --delay: 2;
+}
+
+.wave-text span:nth-child(7) {
+  --delay: 2;
+}
+
+.wave-text span:nth-child(8) {
+  --delay: 2;
+}
+
+.wave-text span:nth-child(9) {
+  --delay: 3;
+}
+
+.wave-text span:nth-child(10) {
+  --delay: 4;
+}
+
+.wave-text span:nth-child(11) {
+  --delay: 5;
+}
+
+.wave-text span:nth-child(12) {
+  --delay: 6;
+}
+
+.wave-text span:nth-child(13) {
+  --delay: 7;
+}
+
+.wave-text span:nth-child(14) {
+  --delay: 8;
+}
+
+.wave-text span:nth-child(15) {
+  --delay: 9;
+}
+
+.wave-text span:nth-child(16) {
+  --delay: 10;
+}
+
+``
